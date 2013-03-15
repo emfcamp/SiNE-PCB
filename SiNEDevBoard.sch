@@ -11093,45 +11093,45 @@ Various fiducial points for machine vision alignment.</description>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED7" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED8" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED9" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED10" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED11" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED12" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED13" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED14" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED15" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED16" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED17" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED18" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED19" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED20" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED7" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED8" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED9" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED10" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED11" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED12" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED13" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED14" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED15" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED16" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED17" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED18" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED19" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
+<part name="LED20" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="0805 LED"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="IC2" library="74xx-eu" deviceset="74*164" device="D" technology="HC"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="0603 10K"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0603 100nF"/>
-<part name="LED21" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="B1" library="microbuilder" deviceset="SWITCH_TACT_SMT" device=""/>
-<part name="B2" library="microbuilder" deviceset="SWITCH_TACT_SMT" device=""/>
+<part name="LED21" library="led" deviceset="LED" device="CHIPLED_1206" value="IR_SENDER"/>
+<part name="B1" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="" value="SWICTH_SMD"/>
+<part name="B2" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="" value="SWITCH_SMD"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE"/>
-<part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE"/>
+<part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value="SOLDERJUMPERTRACE (NP)"/>
+<part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value="SOLDERJUMPERTRACE (NP)"/>
 <part name="JP1" library="CISECO eaglecad designs" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="JP2" library="CISECO eaglecad designs" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="JP3" library="CISECO eaglecad designs" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="U$2" library="CISECO eaglecad designs" deviceset="IR-RECEIVER" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="TP1" library="CISECO eaglecad designs" deviceset="TP" device="B2,54"/>
+<part name="TP1" library="CISECO eaglecad designs" deviceset="TP" device="B2,54" value="TPB2,54(NP)"/>
 </parts>
 <sheets>
 <sheet>

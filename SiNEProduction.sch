@@ -9184,36 +9184,6 @@ Source: www.kingbright.com</description>
 </library>
 <library name="SiNE Parts">
 <packages>
-<package name="TSOP35X">
-<smd name="1" x="-1.905" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="2" x="-0.635" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="3" x="0.635" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
-<smd name="4" x="1.905" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
-<wire x1="-3.6" y1="-2.8" x2="-3.175" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-2.8" x2="3.175" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-2.8" x2="3.6" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-2.8" x2="3.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.6" y1="2.5" x2="3.175" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.175" y1="2.5" x2="-3.175" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="2.5" x2="-3.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="2.5" x2="-3.6" y2="1.1" width="0.127" layer="21"/>
-<rectangle x1="-0.885" y1="-2.8" x2="-0.385" y2="-1.3" layer="51"/>
-<rectangle x1="-2.155" y1="-2.8" x2="-1.655" y2="-1.3" layer="51"/>
-<rectangle x1="0.385" y1="-2.8" x2="0.885" y2="-1.3" layer="51"/>
-<rectangle x1="1.655" y1="-2.8" x2="2.155" y2="-1.3" layer="51"/>
-<wire x1="-3.6" y1="1.1" x2="-3.6" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="0.6" x2="-3.6" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-0.6" x2="-3.6" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-1.1" x2="-3.6" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="-1.1" x2="-3.9" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="1.1" x2="-3.9" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="1.1" x2="-3.6" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="-0.6" x2="-3.6" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="0.6" x2="-3.6" y2="0.6" width="0.127" layer="21"/>
-<wire x1="-3.9" y1="-1.1" x2="-3.6" y2="-1.1" width="0.127" layer="21"/>
-<text x="-3.175" y="3.175" size="0.8128" layer="25">&gt;Name</text>
-<text x="-3.175" y="-4.445" size="0.8128" layer="27">&gt;Value</text>
-</package>
 <package name="SOIC14">
 <description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
 <wire x1="-4.267" y1="-1.791" x2="4.267" y2="-1.791" width="0.1524" layer="51"/>
@@ -10211,20 +10181,46 @@ Source: www.kingbright.com</description>
 <text x="-4.0051" y="6.065" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.9751" y="-7.5601" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="TSOP-COMBINED">
+<smd name="1" x="-1.905" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.055" dx="2.2" dy="0.9" layer="1" rot="R90"/>
+<wire x1="-3.6" y1="-2.8" x2="-3.175" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.8" x2="3.175" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="3.6" y1="-1" x2="3.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.6" y1="2.5" x2="3.175" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.175" y1="2.5" x2="-3.175" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="2.5" x2="-3.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="2.5" x2="-3.6" y2="1.1" width="0.127" layer="21"/>
+<rectangle x1="-0.885" y1="-2.8" x2="-0.385" y2="-1.3" layer="51"/>
+<rectangle x1="-2.155" y1="-2.8" x2="-1.655" y2="-1.3" layer="51"/>
+<rectangle x1="0.385" y1="-2.8" x2="0.885" y2="-1.3" layer="51"/>
+<rectangle x1="1.655" y1="-2.8" x2="2.155" y2="-1.3" layer="51"/>
+<wire x1="-3.6" y1="1.1" x2="-3.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="0.6" x2="-3.6" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-0.6" x2="-3.6" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-1.1" x2="-3.6" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="-1.1" x2="-3.9" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="1.1" x2="-3.9" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="1.1" x2="-3.6" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="-0.6" x2="-3.6" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="0.6" x2="-3.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-3.9" y1="-1.1" x2="-3.6" y2="-1.1" width="0.127" layer="21"/>
+<text x="-3.175" y="3.175" size="0.8128" layer="25">&gt;Name</text>
+<text x="-3.175" y="-4.445" size="0.8128" layer="27">&gt;Value</text>
+<smd name="5" x="3.175" y="-2.2" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.705" y1="-2.8" x2="4.245" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="4.245" y1="-2.8" x2="4.67" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="4.67" y1="-2.8" x2="4.67" y2="0.2" width="0.127" layer="21"/>
+<wire x1="4.67" y1="0.2" x2="4.245" y2="0.2" width="0.127" layer="21"/>
+<wire x1="4.245" y1="0.2" x2="-1.705" y2="0.2" width="0.127" layer="51"/>
+<wire x1="-1.705" y1="0.2" x2="-2.13" y2="0.2" width="0.127" layer="21"/>
+<wire x1="-2.13" y1="0.2" x2="-2.13" y2="-0.7" width="0.127" layer="21"/>
+<rectangle x1="2.925" y1="-2.8" x2="3.425" y2="-1.6" layer="51"/>
+</package>
 </packages>
 <symbols>
-<symbol name="IR-RECEIVER-SMD">
-<pin name="GND" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="NC/GND" x="-7.62" y="0" visible="pin" length="short"/>
-<pin name="VS" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="OUT" x="-7.62" y="-5.08" visible="pin" length="short"/>
-<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
-<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;Value</text>
-</symbol>
 <symbol name="ATTINY24/44/84">
 <wire x1="-2.54" y1="17.78" x2="45.72" y2="17.78" width="0.254" layer="94"/>
 <wire x1="45.72" y1="17.78" x2="45.72" y2="-17.78" width="0.254" layer="94"/>
@@ -10294,26 +10290,21 @@ Source: www.kingbright.com</description>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
+<symbol name="IR-RECEIVER-SMD-COMBINED">
+<pin name="GND@1" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="NC/GND@2" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="VS@3" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="OUT@4" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+<pin name="GND@5" x="-7.62" y="5.08" visible="pin" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="IR-RECEIVER">
-<gates>
-<gate name="G$1" symbol="IR-RECEIVER-SMD" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSOP35X">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="NC/GND" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="VS" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATTINY24/44/84" prefix="IC">
 <gates>
 <gate name="1" symbol="ATTINY24/44/84" x="0" y="0"/>
@@ -11048,6 +11039,25 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <technology name="HC"/>
 <technology name="HCT"/>
 <technology name="LS"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IR-RECEIVE-COMBINED">
+<gates>
+<gate name="G$1" symbol="IR-RECEIVER-SMD-COMBINED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOP-COMBINED">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="NC/GND@2" pad="2"/>
+<connect gate="G$1" pin="OUT@4" pad="4"/>
+<connect gate="G$1" pin="VS@3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -14126,12 +14136,12 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value="SOLDERJUMPERTRACE (NP)"/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE" value="SOLDERJUMPERTRACE (NP)"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="SiNE Parts" deviceset="IR-RECEIVER" device=""/>
 <part name="IC3" library="SiNE Parts" deviceset="ATTINY24/44/84" device="-SSU"/>
 <part name="BAT2" library="SiNE Parts" deviceset="BATTERY" device="20SMD"/>
 <part name="TP2" library="SiNE Parts" deviceset="TP" device="B2,54"/>
 <part name="IC1" library="SiNE Parts" deviceset="74*164" device="D" technology="HCT"/>
 <part name="U$2" library="TiLDA" deviceset="MINIEMF" device=""/>
+<part name="U$3" library="SiNE Parts" deviceset="IR-RECEIVE-COMBINED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14178,22 +14188,22 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
 <instance part="R2" gate="G$1" x="119.38" y="152.4" rot="R180"/>
 <instance part="P+5" gate="VCC" x="111.76" y="160.02"/>
-<instance part="P+6" gate="VCC" x="43.18" y="71.12" rot="R270"/>
-<instance part="C1" gate="G$1" x="48.26" y="68.58" rot="R90"/>
-<instance part="LED21" gate="G$1" x="99.06" y="66.04"/>
+<instance part="P+6" gate="VCC" x="63.5" y="76.2" rot="R270"/>
+<instance part="C1" gate="G$1" x="68.58" y="73.66" rot="R90"/>
+<instance part="LED21" gate="G$1" x="86.36" y="53.34"/>
 <instance part="B1" gate="G$1" x="127" y="68.58"/>
 <instance part="B2" gate="G$1" x="127" y="86.36"/>
 <instance part="GND5" gate="1" x="137.16" y="86.36" rot="R90"/>
 <instance part="GND6" gate="1" x="137.16" y="68.58" rot="R90"/>
 <instance part="SJ1" gate="1" x="68.58" y="40.64"/>
 <instance part="SJ2" gate="1" x="68.58" y="35.56"/>
-<instance part="GND7" gate="1" x="38.1" y="81.28" rot="R90"/>
-<instance part="U$1" gate="G$1" x="22.86" y="73.66" rot="MR0"/>
+<instance part="GND7" gate="1" x="58.42" y="86.36" rot="R90"/>
 <instance part="IC3" gate="1" x="35.56" y="144.78"/>
 <instance part="BAT2" gate="G$1" x="86.36" y="114.3"/>
 <instance part="TP2" gate="G$1" x="129.54" y="114.3"/>
 <instance part="IC1" gate="A" x="139.7" y="147.32"/>
 <instance part="U$2" gate="G$1" x="190.5" y="40.64"/>
+<instance part="U$3" gate="G$1" x="43.18" y="78.74" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -14229,15 +14239,19 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <wire x1="132.08" y1="68.58" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="76.2" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
-<junction x="33.02" y="76.2"/>
+<wire x1="50.8" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="81.28" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<junction x="53.34" y="81.28"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="NC/GND"/>
+<pinref part="U$3" gate="G$1" pin="GND@1"/>
+<pinref part="U$3" gate="G$1" pin="NC/GND@2"/>
+<pinref part="U$3" gate="G$1" pin="GND@5"/>
+<wire x1="50.8" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="53.34" y="83.82"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -14329,8 +14343,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 </segment>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<wire x1="40.64" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VS"/>
+<wire x1="60.96" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VS@3"/>
 </segment>
 </net>
 <net name="LED_C2" class="0">
@@ -14621,15 +14635,15 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
+<wire x1="66.04" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="OUT@4"/>
 </segment>
 </net>
 <net name="IR_IN" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="60.96" y="68.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="73.66" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
+<label x="81.28" y="73.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ1" gate="1" pin="1"/>
@@ -14640,8 +14654,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <net name="IR_PWM" class="0">
 <segment>
 <pinref part="LED21" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<label x="91.44" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="86.36" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<label x="78.74" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
@@ -14652,8 +14666,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <net name="IR_OUT" class="0">
 <segment>
 <pinref part="LED21" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<label x="91.44" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="86.36" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<label x="78.74" y="48.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SJ2" gate="1" pin="1"/>

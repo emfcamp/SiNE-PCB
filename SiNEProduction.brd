@@ -142,7 +142,7 @@
 <wire x1="75" y1="0" x2="80" y2="5" width="0.15" layer="20" curve="90"/>
 <wire x1="75" y1="60" x2="80" y2="55" width="0.15" layer="20" curve="-90"/>
 <wire x1="5" y1="60" x2="0" y2="55" width="0.15" layer="20" curve="79.611142"/>
-<text x="40" y="53" size="6.4516" layer="21" align="center">HELLO</text>
+<text x="40" y="53" size="6.4516" layer="21" font="vector" ratio="15" align="center">HELLO</text>
 <polygon width="0" layer="21">
 <vertex x="10" y="15"/>
 <vertex x="10" y="46"/>
@@ -153,7 +153,7 @@
 <vertex x="70" y="46"/>
 <vertex x="70" y="15"/>
 </polygon>
-<text x="40" y="44" size="2.54" layer="21" align="center">MY NAME IS:</text>
+<text x="40" y="44" size="2.5" layer="21" font="vector" ratio="15" align="center">MY NAME IS:</text>
 <circle x="40" y="22" radius="9" width="0" layer="42"/>
 </plain>
 <libraries>

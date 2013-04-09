@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -84,6 +84,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="Stencile_Ref" color="11" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="120" name="120" color="7" fill="1" visible="yes" active="yes"/>
@@ -134,14 +135,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="5" x2="0" y2="55" width="0.15" layer="20"/>
-<wire x1="5" y1="60" x2="75" y2="60" width="0.15" layer="20"/>
 <wire x1="80" y1="55" x2="80" y2="5" width="0.15" layer="20"/>
+<wire x1="80" y1="5" x2="75" y2="0" width="0.15" layer="20" curve="-90"/>
 <wire x1="75" y1="0" x2="5" y2="0" width="0.15" layer="20"/>
-<wire x1="0" y1="5" x2="5" y2="0" width="0.15" layer="20" curve="90"/>
-<wire x1="75" y1="0" x2="80" y2="5" width="0.15" layer="20" curve="90"/>
+<wire x1="5" y1="0" x2="0" y2="5" width="0.15" layer="20" curve="-90"/>
+<wire x1="0" y1="5" x2="0" y2="55" width="0.15" layer="20"/>
+<wire x1="0" y1="55" x2="5" y2="60" width="0.15" layer="20" curve="-90"/>
+<wire x1="5" y1="60" x2="75" y2="60" width="0.15" layer="20"/>
 <wire x1="75" y1="60" x2="80" y2="55" width="0.15" layer="20" curve="-90"/>
-<wire x1="5" y1="60" x2="0" y2="55" width="0.15" layer="20" curve="79.611142"/>
 <text x="40" y="54" size="6.4516" layer="21" font="vector" ratio="15" align="center">HELLO</text>
 <polygon width="0" layer="21">
 <vertex x="10" y="13"/>
@@ -6392,6 +6393,16 @@
 </package>
 </packages>
 </library>
+<library name="CISECO eaglecad designs">
+<description>www.ciseco.co.uk</description>
+<packages>
+<package name="FIDUCIAL-1X2.5-STOP">
+<circle x="0" y="0" radius="1.55" width="0" layer="41"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="29"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6619,6 +6630,9 @@
 <element name="U$1" library="SiNE Parts" package="TWILIO" value="" x="60" y="1" rot="MR0"/>
 <element name="U$5" library="SiNE Parts" package="CISECO1" value="" x="22" y="15" rot="MR0"/>
 <element name="U$4" library="SiNE Parts" package="NAME" value="" x="40" y="41.999996875"/>
+<element name="JP1" library="CISECO eaglecad designs" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="65.5" y="3"/>
+<element name="JP2" library="CISECO eaglecad designs" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="16" y="57"/>
+<element name="JP3" library="CISECO eaglecad designs" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="3" y="11.3"/>
 </elements>
 <signals>
 <signal name="GND">
